@@ -29,7 +29,7 @@ function App() {
   return(
     <>
     <BrowserRouter>
-    <div className='container'>
+    <div className='container sample'>
      <Header/>
      <Axios/>
      <Tables/>

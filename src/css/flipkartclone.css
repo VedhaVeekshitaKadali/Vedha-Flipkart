@@ -1,0 +1,236 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+   --primary-color: #2874f0;
+}
+nav{
+   background: #036cdb;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px 0px;
+
+}
+.logo{
+color: white;
+}
+.plus{
+   color: yellow;
+
+}
+.logo p{
+   position: relative;
+   top: -5px;
+}
+.searchbar{
+   margin: 0px 15px;
+   width: 420px;
+   padding: 9px;
+   background: white;
+   border-radius: 3px;
+   box-shadow: -7px -7px 10px rgba(0,0,0,0,0.1),7px 7px 10px rgba(0,0,0,0,0.1);
+
+}
+.hii{
+   display: flex;
+   justify-content: space-between;
+   padding:0px 10px;
+
+}
+.hii input{
+   border: none;
+   outline: none;
+   width: 300px;
+   font-size: 15px;
+}
+.hii i{
+   color: #036cdb;
+}
+
+.loginbtn{
+ margin:0px 20px ;
+ padding: 8px 45px;
+ background-color: white;
+ border: none;
+ outline: none;
+ font-size: 16px;
+ font-weight: 550;
+ border-radius: 2px;
+ color:#036cdb;
+}
+.link{
+   margin: 0px 30px;
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+
+}
+.link i{
+ font-size: 12px;
+}
+#trues{
+font-size: 16px;
+}
+/*section 1*/
+.section-1{
+   width: 100%;
+   height: 122px;
+   background-color: white;
+   box-shadow: 0 1px 1px 0 rgb(0 0 0 16%);
+}
+.section-1-container{
+   width: 1200px;
+   margin: 0 auto;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.section-1-item{
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 14px;
+   font-weight: 500;
+   gap: 4px;
+}
+.section-1-item img{
+   height:64px;
+   width: 64px;
+}
+/*section-2*/
+.section-2-container{
+   margin-top: 16px;
+   height: 280px;
+   background: url("https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/0735712fe84c602d.jpg?q=50");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+/*section-3*/
+.section-3-container{
+   margin-top: 8px;
+   height: 122px;
+   background: url("https://rukminim1.flixcart.com/fk-p-flap/2848/246/image/d56a3ed6d200038a.jpg?q=50");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.section-4-container{
+   height: 362px;
+   background: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 8px;
+}
+.section-4-offers{
+   width: 230px;
+   height: 100%;
+   background: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/1e483f8045ec13a8.jpg?q=90");
+   background-position: bottom;
+   background-repeat: no-repeat;
+
+}
+.section-4-offers-viewall{
+   margin-top: 132px;
+   width: 100%;
+   font-size: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.section-4-offers-viewall button{
+   margin-top: 24px;
+   height: 40px;
+   background-color: var(--primary-color);
+   color: white;
+   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+   font-size: 14px;
+   padding: 10px;
+   font-weight: 500;
+   border: none;
+   border-radius: 2px;
+   cursor: pointer;
+}
+.section-4-list{
+   width: calc(100% - 32px);
+   height: 100%; 
+   display: flex;
+   overflow-x: auto;
+
+}
+.section-4-item{
+   width: 232px;
+   height: 100%;
+   padding: 0 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.section-4-item img{
+   max-height: 200px;
+   max-width: 200px;
+}
+.section-4-item-head{
+   margin-top: 16px;
+   font-size: 14px;
+   font-weight: 500;
+}
+.section-4-item-price{
+   margin-top: 12px;
+   font-size: 16px;
+   color: #388e3c;
+}
+.section-4-item-explore{
+   opacity: 0.6;
+   margin-top: 12px;
+   font-weight: 300;
+   font-size: 12px;
+}
+.section-5{
+   margin-top: 8px;
+   display: flex;
+   justify-content: space-between;
+}
+.section-5 img{
+   width: 33%;
+}
+.section-6-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.section-6-container-item{
+   border: 1px solid black;
+   height: 154px;
+   width: 110px;
+   margin-top: 4px;
+   padding-top: 4px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.section-6-container-item img{
+   width:92px;
+   height: 92px;
+
+}
+footer{
+   text-align: center;
+   margin-top: 26px;
+   background-color: white;
+   padding: 25px;
+   padding: center;
+   font-size: 14px;
+   color: #878787;
+}
